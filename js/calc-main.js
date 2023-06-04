@@ -54,7 +54,7 @@ if (isMobile.any()) {
 const form = document.getElementById('form');
 
 function calculateFactor(event) {
-    // event.preventDefault();
+    event.preventDefault();
 
     let old__corr = document.querySelector('#old__corr');
     let len__prod = document.querySelector('#len__prod');
