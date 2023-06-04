@@ -152,6 +152,10 @@ body {
 	object-fit: cover;
 }
 .main__inner {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	height: 95%;
 }
 .form {
 	display: flex;
@@ -223,6 +227,14 @@ body {
 	border: 2px solid #171718;
 	border-bottom: 3px solid #171718;
 }
+.inner__factor {
+	color: rgb(99, 2, 2);
+	font-size: 24px;
+	font-weight: 700;
+	background-color: #6c757d;
+	box-shadow: 0 0 10px 10px #6c757d;
+}
+
 .footer {
 	height: 50px;
 	background-color: #6c757d;

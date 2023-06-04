@@ -66,10 +66,12 @@ function calculateFactor(event) {
     division = division.toFixed(5)
     let multiplication = division*old__corr.value
     multiplication = multiplication.toFixed(5)
-    console.log('на скільки', long__short);
-    console.log('зміна довжини', length__change);
+    console.log('довжина відрізняється на', long__short);
+    console.log('реальна довжина', length__change);
     console.log('ділення', division);
-    console.log('новий кор фактор', multiplication);
+    console.log('новий кор. фактор', multiplication);
+
+    document.getElementById('in__here').innerHTML = 'Nieuwe factor: \n'+ (multiplication);
     
     alert('Nieuwe factor: \n'+ (multiplication));
 }
