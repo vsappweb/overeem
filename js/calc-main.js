@@ -58,13 +58,15 @@ function calculateFactor(event) {
 
     let old__corr = document.querySelector('#old__corr');
     let len__prod = document.querySelector('#len__prod');
+    let sign = document.querySelector('#sign');
     let long__short = document.querySelector('#long__short');
-    let length__change = Number(len__prod.value) + Number(long__short.value);
+    long__short = sign.value + long__short.value
+    let length__change = Number(len__prod.value) + Number(long__short);
     let division = len__prod.value/length__change;
     division = division.toFixed(5)
     let multiplication = division*old__corr.value
     multiplication = multiplication.toFixed(5)
-
+    console.log('на скільки', long__short);
     console.log('зміна довжини', length__change);
     console.log('ділення', division);
     console.log('новий кор фактор', multiplication);

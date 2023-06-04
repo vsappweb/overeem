@@ -154,21 +154,49 @@ body {
 .main__inner {
 }
 .form {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
 }
 .form__input {
-	width: 300px;
-	height: 30px;
+	width: 200px;
+	height: 50px;
 	border: 1px solid red;
 	margin-bottom: 20px;
 	padding: 0 15px;
+	text-align: center;
+	font-size: 16px;
+}
+.how-much {
+	display: flex;
+}
+.form__input-sing {
+	width: 100px;
+	height: 50px;
+	border: 1px solid red;
+	margin-bottom: 20px;
+	padding: 0 15px;
+	margin-right: 20px;
+	text-align: center;
+	font-size: 16px;
+}
+.form__input-longshort {
+	width: 80px;
+	height: 50px;
+	border: 1px solid red;
+	margin-bottom: 20px;
+	padding: 0 15px;
+	text-align: center;
+	font-size: 16px;
 }
 .form-btn {
 	text-transform: uppercase;
-	background-color: blueviolet;
+	background-color: #6c757d;
 	color: #fff;
-	width: 300px;
-	height: 30px;
-	border: 2px splid blue;
+	width: 200px;
+	height: 50px;
+	border: 2px solid #171718;
+	border-radius: 10px;
 }
 .footer {
 	height: 50px;
