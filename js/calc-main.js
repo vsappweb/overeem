@@ -87,7 +87,11 @@ function calculateFactorRp(event) {
     let len__prod = document.querySelector('#len__prod-rp');
     let sign = document.querySelector('#sign-rp');
     let long__short = document.querySelector('#long__short-rp');
-    long__short = sign.value + long__short.value
+    let plus__minus = document.querySelector('#pm-rp');
+
+    old__corr = plus__minus.value + old__corr.value;
+
+    long__short = sign.value + long__short.value;
 
     let length__change = Number(len__prod.value) + Number(long__short);
     let subtraction = Number(len__prod.value) - Number(length__change);
@@ -106,8 +110,9 @@ function calculateFactorRp(event) {
     //    addition = Number(multiplication) + Number(old__corr.value);
     //    console.log('else', addition);
     // }
-    addition = Number(multiplication) + Number(old__corr.value);
-    console.log('старий кор фактор', old__corr.value);
+    addition = Number(multiplication) + Number(old__corr);
+    
+    console.log('старий кор фактор', old__corr);
     console.log('різниця', subtraction);
     console.log('реальна довжина', length__change);
     console.log('ділення', division);

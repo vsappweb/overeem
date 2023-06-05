@@ -38,7 +38,13 @@
             <div class="container">
                 <div class="main__inner">
                     <form class="form" action="#" id="form">
-                        <input class="form__input" placeholder="correctiefactor" type="number" step="any" id="old__corr-rp">
+                        <div class="how-much">
+                            <select class="form__input-pm" name="sign_pm" id="pm-rp" >
+                                <option value="+">+</option> 
+                                <option value="-">-</option>
+                            </select>
+                            <input class="form__input-pm--value" placeholder="correctiefactor" type="number" step="any" id="old__corr-rp">
+                        </div>
                         <input class="form__input" placeholder="lengte op prod." type="number" step="any" id="len__prod-rp">
                         <p class="how-much__text">I want to make my profile</p>
                         <div class="how-much">
