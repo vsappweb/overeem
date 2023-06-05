@@ -157,6 +157,9 @@ body {
 	justify-content: space-between;
 	height: 95%;
 }
+.main__inner-press{
+	justify-content: space-around;
+}
 
 .press-btn {
 	background-color: #6c757d;
@@ -169,6 +172,11 @@ body {
 	height: 100px;
 	border: 7px solid rgb(99, 2, 2);
 	border-radius: 10px;
+}
+.press-btn--not{
+	color: rgba(99, 2, 2, 0.5);
+	background-color: #6c757d83;
+	border: 7px solid rgb(99, 2, 2, 0.5);
 }
 
 .header__press-btn {
@@ -209,9 +217,8 @@ body {
 .how-much__text {
 	color: rgb(99, 2, 2);
 	font-size: 17px;
-	font-weight: 400;
+	font-weight: 700;
 	margin-bottom: 10px;
-	text-shadow: 2px 2px 10px  blue;
 }
 
 .how-much {
