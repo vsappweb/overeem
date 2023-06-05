@@ -18,7 +18,8 @@
         <header class="header">
             <div class="container">
                 <div class="header__inner">
-                    <img src="https://www.hadleygroup.com/app/themes/hadley/dist/images/site-logo.svg" alt="Hadley Group">
+                    <a class="home" href="index.html"> <img class="logo" src="img/home.svg" alt="back"> </a>
+                    <a class="press-btn header__press-btn" href="index.html">RED PRESS</a>
                     <div class="header__burger">
                         <span></span>
                     </div>
@@ -36,9 +37,20 @@
             </video>
             <div class="container">
                 <div class="main__inner">
-                    <a class="press-btn" href="old_press.html">OLD PRESS</a>
-                    <a class="press-btn" href="red_press.html">RED PRESS</a>
-                    <a class="press-btn" href="new_press.html">NEW PRESS</a>
+                    <form class="form" action="#" id="form">
+                        <input class="form__input" placeholder="correctiefactor" type="number" step="any" id="old__corr-rp">
+                        <input class="form__input" placeholder="lengte op prod." type="number" step="any" id="len__prod-rp">
+                        <p class="how-much__text">I want to make my profile</p>
+                        <div class="how-much">
+                            <select class="form__input-sing" name="sign" id="sign-op" >
+                                <option value="+">shorter</option> 
+                                <option value="-">longer</option>
+                            </select>
+                            <input class="form__input-longshort" placeholder="<+/->" type="number"  step="any" id="long__short-rp">
+                        </div>
+                        <button class="form-btn" type="submit">calculate</button>
+                    </form>
+                    <div class="inner__factor" id="in__here-rp"></div>
                 </div>
             </div>
         </div>
