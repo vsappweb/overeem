@@ -49,11 +49,6 @@
             "purpose": "any"
         },
         {
-            "src": "ico/apple-touch-icon-310x310.png",
-            "sizes": "310x310",
-            "type": "image/png"
-        },
-        {
             "src": "ico/apple-touch-icon-512x512.png",
             "sizes": "512x512",
             "type": "image/png"
