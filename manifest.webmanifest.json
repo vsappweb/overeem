@@ -5,7 +5,7 @@
     "theme_color": "#6c757d",
     "background_color": "#630202",
     "display": "standalone",
-    "orientation": "any",
+    "orientation": "portrait",
     "scope": ".",
     "id": "/overeem",
     "start_url": ".",
