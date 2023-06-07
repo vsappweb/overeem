@@ -2,6 +2,15 @@
 <html lang="Ua">
 
 <head>
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-9HHSTW83PX"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+
+        gtag('config', 'G-9HHSTW83PX');
+    </script>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -34,11 +43,20 @@
                     </div>
                     <nav class="header-menu">
                         <ul class="header-menu__list">
-                            <li class="header-menu__item"> <p class="header-menu__text">N. factor PWA ver 0.99</p> </li>
-                            <li class="header-menu__item"> <img class="instruction__press" src="img/red_press.jpeg" alt="instruction"></li>
-                            <li class="header-menu__item"> <a class="header-menu__link" href="old_press.html"> A new factor for the <span> press</span></a></li>
-                            <li class="header-menu__item"> <img class="header-menu__img" src="img/link.svg" alt="link install"><br><a class="header-menu__link--link" href="https://vsappweb.github.io/overeem">https://vsappweb.github.io/overeem</a></li>
-                            <li class="header-menu__item header-menu__item--license"> <a class="header-menu__link header-menu__link--license" href="license.html">License MIT</a></li>
+                            <li class="header-menu__item">
+                                <p class="header-menu__text">N. factor PWA ver 0.99</p>
+                            </li>
+                            <li class="header-menu__item"> <img class="instruction__press" src="img/red_press.jpeg"
+                                    alt="instruction"></li>
+                            <li class="header-menu__item"> <a class="header-menu__link" href="old_press.html"> A new
+                                    factor for the <span> press</span></a></li>
+                            <li class="header-menu__item"> <img class="header-menu__img" src="img/link.svg"
+                                    alt="link install"><br><a class="header-menu__link--link"
+                                    href="https://vsappweb.github.io/overeem">https://vsappweb.github.io/overeem</a>
+                            </li>
+                            <li class="header-menu__item header-menu__item--license"> <a
+                                    class="header-menu__link header-menu__link--license" href="license.html">License
+                                    MIT</a></li>
                         </ul>
                     </nav>
                 </div>
@@ -52,20 +70,23 @@
                 <div class="main__inner">
                     <form class="form" action="#" id="form">
                         <div class="how-much">
-                            <select class="form__input-pm" name="sign_pm" id="pm-rp" >
-                                <option value="+">+</option> 
+                            <select class="form__input-pm" name="sign_pm" id="pm-rp">
+                                <option value="+">+</option>
                                 <option value="-">-</option>
                             </select>
-                            <input class="form__input-pm--value" placeholder="correctiefactor" type="number" step="any" id="old__corr-rp">
+                            <input class="form__input-pm--value" placeholder="correctiefactor" type="number" step="any"
+                                id="old__corr-rp">
                         </div>
-                        <input class="form__input" placeholder="lengte op prod." type="number" step="any" id="len__prod-rp">
+                        <input class="form__input" placeholder="lengte op prod." type="number" step="any"
+                            id="len__prod-rp">
                         <p class="how-much__text">I want to make my profile</p>
                         <div class="how-much">
-                            <select class="form__input-sing" name="sign" id="sign-rp" >
-                                <option value="+">shorter</option> 
+                            <select class="form__input-sing" name="sign" id="sign-rp">
+                                <option value="+">shorter</option>
                                 <option value="-">longer</option>
                             </select>
-                            <input class="form__input-longshort" placeholder="<+/->" type="number"  step="any" id="long__short-rp">
+                            <input class="form__input-longshort" placeholder="<+/->" type="number" step="any"
+                                id="long__short-rp">
                         </div>
                         <button class="form-btn" type="submit">calculate</button>
                     </form>
@@ -78,7 +99,8 @@
                 <div class="footer__inner">
                     <nav class="footer-menu">
                         <ul class="footer-menu__list">
-                            <li class="footer-menu__item"> <a class="footer__button" href="license.html">© 2023 V.S.</a> </li>
+                            <li class="footer-menu__item"> <a class="footer__button" href="license.html">© 2023 V.S.</a>
+                            </li>
                         </ul>
                     </nav>
                 </div>
