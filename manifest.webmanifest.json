@@ -3,7 +3,7 @@
     "short_name": "N. factor PWA",
     "description": "Сalculator of the new corrector factor",
     "theme_color": "#6c757d",
-    "background_color": "#630202",
+    "background_color": "#6c757d",
     "display": "standalone",
     "orientation": "portrait",
     "scope": ".",
