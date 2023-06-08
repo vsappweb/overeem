@@ -501,6 +501,9 @@ body.lock {
 	margin-right: 20px;
 	text-align: left;
 }
+.brackets {
+	display: none;
+}
 
 /*! =====----formula-end----===== */
 

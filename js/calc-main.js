@@ -95,9 +95,14 @@ function calculateFactorRp(event) {
     document.getElementById('multiply').style = 'display: block;';
     if (old__corr < 0) {
         document.getElementById('plus').style = 'display: block;';
+        document.getElementById('bracket-1').style = 'display: block;';
+        document.getElementById('bracket-2').style = 'display: block;';
+
     }
     else {
         document.getElementById('plus').style = 'display: none;';
+        document.getElementById('bracket-1').style = 'display: none;';
+        document.getElementById('bracket-2').style = 'display: none;';
     }
 
     document.getElementById('equal-1').style = 'display: block;';
