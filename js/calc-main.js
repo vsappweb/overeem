@@ -80,11 +80,14 @@ function calculateFactorRp(event) {
     console.log('ділення', divisionrp);
     console.log('множення на 100', multiplication);
     console.log('новий кор фактор', addition);
-
+    
+    document.getElementById('operation-1').style = 'display: block;';
+    document.getElementById('operation-2').style = 'display: block;';
     document.getElementById('reduced').innerHTML = len__prod.value;
     document.getElementById('subtractor').innerHTML = length__change;
     document.getElementById('the-denominator').innerHTML = length__change;
-    document.getElementById('midle-factor').innerHTML = multiplication;
+    document.getElementById('midle-factor-1').innerHTML = multiplication;
+    document.getElementById('midle-factor-2').innerHTML = multiplication;
     document.getElementById('old-factor').innerHTML = old__corr;
     document.getElementById('new-factor').innerHTML = addition;
     document.getElementById('line').style = 'display: block;';
@@ -98,7 +101,6 @@ function calculateFactorRp(event) {
     }
 
     document.getElementById('equal-1').style = 'display: block;';
-    document.getElementById('equal-2').style = 'display: block;';
     document.getElementById('equal-3').style = 'display: block;';
 
     document.getElementById('in__here-rp').innerHTML = 'Nieuwe factor: \n'+ (addition);

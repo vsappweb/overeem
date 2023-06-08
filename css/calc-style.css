@@ -458,7 +458,7 @@ body.lock {
 	display: flex;
 	align-items: center;
 	justify-content: center;
-	margin-bottom: 10px;
+	margin-bottom: 20px;
 }
 .division {
 }
@@ -491,6 +491,15 @@ body.lock {
 .item-four {
 }
 .item-two {
+}
+
+.operation {
+	display: none;
+	color: #6c757d;
+	font-size: 18px;
+	font-weight: 700;
+	margin-right: 20px;
+	text-align: left;
 }
 
 /*! =====----formula-end----===== */
