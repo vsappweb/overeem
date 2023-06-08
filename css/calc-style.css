@@ -148,12 +148,12 @@ body.lock {
 	text-align: center;
 	height: 100%;
 	overflow: auto;
-	padding-bottom: 60px;
+	padding-bottom: 40px;
 }
 
 .header-menu__item {
 	margin-top: 10px;
-	margin-bottom: 20px;
+	margin-bottom: 10px;
 	position: relative;
 }
 
@@ -221,12 +221,13 @@ body.lock {
 .header-menu__img {
 	width: 200px;
 	height: 200px;
-	margin: 25px 0;
+	margin: 15px 0;
 }
 
 .main {
 	display: flex;
-	flex: 1 0 auto;
+	flex-grow: 1;
+	/* flex: 1 0 auto; */
 	/* align-items: center; */
 	margin-bottom: 30px;
 	text-align: center;
@@ -392,7 +393,7 @@ body.lock {
 
 .instruction__press{
 	opacity: .85;
-	margin: 50px auto 0;
+	margin: 0 auto;
 	max-width: 350px;
 	width: 90%;
 	border-radius: 10px;
@@ -615,8 +616,8 @@ body.lock {
 	height: 100%;
 	overflow: auto;
 	background-image: linear-gradient(180deg, rgb(99, 2, 2), rgb(99, 2, 2));
-	padding-top: 15px;
-	padding-bottom: 120px;
+	padding-top: 5px;
+	padding-bottom: 105px;
 	transition: all .5s;
 }
 
