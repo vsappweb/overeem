@@ -1,9 +1,11 @@
 const menuBtn = document.querySelector('.header__burger');
 const menu = document.querySelector('.header-menu');
+const body = document.querySelector('body');
 
 menuBtn.addEventListener('click', ()=> {
     menu.classList.toggle('active');
     menuBtn.classList.toggle('active');
+    body.classList.toggle('lock');
 });
 
 
@@ -30,7 +32,7 @@ function calculateFactorOp(event) {
 
     document.getElementById('in__here-op').innerHTML = 'Nieuwe factor: \n'+ (multiplication);
     
-    alert('Nieuwe factor: \n'+ (multiplication));
+    //alert('Nieuwe factor: \n'+ (multiplication));
 }
 
 formop.addEventListener('submit', calculateFactorOp);
@@ -78,7 +80,7 @@ function calculateFactorRp(event) {
 
     document.getElementById('in__here-rp').innerHTML = 'Nieuwe factor: \n'+ (addition);
     
-    alert('Nieuwe factor: \n'+ (addition));
+    //alert('Nieuwe factor: \n'+ (addition));
 }
 
 formrp.addEventListener('submit', calculateFactorRp);

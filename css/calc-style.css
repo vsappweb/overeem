@@ -96,6 +96,10 @@ body {
 	color: black;
 }
 
+body.lock {
+	overflow: hidden;
+}
+
 .container {
 	max-width: 500px;
 	padding: 0 10px;
@@ -122,6 +126,7 @@ body {
 	align-items: center;
 }
 .logo-img {
+	width: 110px;
 	height: 38px;
 	border: 3px solid rgb(99, 2, 2);
 	border-radius: 10px;
@@ -141,7 +146,8 @@ body {
 	justify-content: space-between;
 	align-items: center;
 	text-align: center;
-	height: 99%;
+	height: 100%;
+	overflow: auto;
 }
 
 .header-menu__item {
@@ -260,7 +266,7 @@ body {
 	font-size: 14px;
 	font-weight: 700;
 	text-align: center;
-	padding: 13px 5px;
+	padding: 11px 5px;
 	color: rgb(99, 2, 2);
 	width: 100px;
 	height: 40px;
@@ -372,15 +378,15 @@ body {
 	color: #fff;
 	width: 200px;
 	height: 50px;
-	border: 2px solid #171718;
-	border-bottom: 3px solid #171718;
+	border: 2px solid rgb(99, 2, 2);
+	border-bottom: 3px solid rgb(99, 2, 2);
 	border-radius: 10px;
 	transition: all .3s;
 }
 .form-btn:hover, .form-btn:active {
-	background-color: #171718;
-	border: 2px solid #171718;
-	border-bottom: 3px solid #171718;
+	background-color: rgb(99, 2, 2);
+	border: 2px solid #6c757d;
+	border-bottom: 3px solid #6c757d;
 }
 
 .instruction__press{
@@ -420,6 +426,7 @@ body {
 .footer {
 	height: 50px;
 	background-color: #6c757d;
+	z-index: 10;
 }
 .footer__inner {
 }
