@@ -148,6 +148,7 @@ body.lock {
 	text-align: center;
 	height: 100%;
 	overflow: auto;
+	padding-bottom: 60px;
 }
 
 .header-menu__item {
@@ -218,8 +219,8 @@ body.lock {
 
 
 .header-menu__img {
-	width: 250px;
-	height: 250px;
+	width: 200px;
+	height: 200px;
 	margin: 25px 0;
 }
 
@@ -398,6 +399,102 @@ body.lock {
 	z-index: -1;
 	box-shadow: inset 0 0 3px 3px rgb(99, 2, 2);
 }
+
+/*! =====----formula----===== */
+
+.formula__old-press {
+	color: rgb(99, 2, 2);
+	font-size: 14px;
+	font-weight: 700;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.division {
+	text-align: center;
+}
+.chyselnyk {
+	color: rgb(99, 2, 2);
+	font-size: 14px;
+	font-weight: 700;
+}
+.line {
+	display: none;
+	background-color: rgb(99, 2, 2);
+	width: 100%;
+	height: 2px;
+	margin: 5px 0;
+}
+.zmamennyk {
+}
+.line__four-items {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.multiply {
+	display: none;
+	padding: 5px 5px 0;
+}
+.item-two {
+}
+.operators {
+	display: none;
+	padding: 0 5px;
+}
+.item-four {
+}
+
+.formula__red-press {
+	color: rgb(99, 2, 2);
+	font-size: 14px;
+	font-weight: 700;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+}
+.first__operation {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin-bottom: 10px;
+}
+.division {
+}
+.chyselnyk {
+	display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.zmenshuvane {
+}
+.operators {
+
+}
+.vidjemnyk {
+}
+.line {
+}
+.zmamennyk {
+}
+.line__four-items {
+}
+.multiply span{
+	padding-top: 0;
+}
+.amount {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.item-four {
+}
+.item-two {
+}
+
+/*! =====----formula-end----===== */
+
 .inner__factor {
 	color: rgb(99, 2, 2);
 	font-size: 24px;
